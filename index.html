@@ -5,36 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <title>Portifólio Sarah</title>
+    <link rel="stylesheet" type="" href="style.css">
 </head>
 <body>
-    <header>
-        <img src="users.svg">
-        <nav>
-            <a>Sobre mim</a>
-            <a>Repositório</a>
-            <a>Contato</a>     
+    <header class="cabecalho">
+        <img class="cabecalho-img" src="users.svg">
+        <nav class="cabecalho-menu">
+            <a target="_blank" class="cabecalho-menu-item">Sobre mim</a>
+            <a target="_blank" class="cabecalho-menu-item">Repositório</a>
+            <a target="_blank" class="cabecalho-menu-item">Contato</a>     
         </nav>
     </header>
-    <main>
-        <section>
-            <article>
-                <h1>Sarah Matias</h1>
-                <h2>Alguma coisa sobre mim </h2>
-                <button>Curriculo</button>
+    <main class="conteudo">
+        <section class="conteudo-principal">
+            <article class="conteudo-principal-escrito">
+                <h1 class="conteudo-principal-escrito-titulo">Sarah Matias</h1>
+                <h2 class="conteudo-principal-escrito-subtitulo">Veja meu curriculo Lattes </h2>
+                <a href="http://lattes.cnpq.br/8121219218177550" target="_blank">
+                    <button class="conteudo-principal-escrito-botao">Currículo</button>
+                </a>
             </article>
-            <img src="cropped_image 1.svg" alt="foto da sarah">
+            <img class="conteudo-principal-imagem" src="cropped_image 1.svg" alt="foto da sarah">
         </section>
-        <section>
-            <h3>Sobre mim</h3>
-            <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria </p>
-            <p>tipográfica e de impressos, e vem sendo utilizado desde o século XVI,</p>
-            <p>quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou</p>
+        <section class="conteudo-secundario">
+            <h3 class="conteudo-secundario-titulo">Sobre mim</h3>
+            <p class="conteudo-secundario-paragrafo">Sou Engenheira da Computação,</p>
+            <p class="conteudo-secundario-paragrafo">mas atualmente trabalho com infraestrutura e rede</p>
+            <p class="conteudo-secundario-paragrafo">além disso, estou estudando as tecnologias Flutter e React Native para desenvolvimento mobile</p>
         </section>
-
-
     </main>
-    <footer>
-
+    <footer class="rodape">
+        <div>
+            <a href="mailto:sarahmatias68@gmail.com" target="_blank">
+                <img class="rodape-img" src="logo-gmail.svg" alt="imagem e-mail do gmail para contato">
+            </a>
+            <a href="https://www.linkedin.com/in/sarah-matias-42a721181/" target="_blank">
+                <img class="rodape-img" src="logo-linkedin.svg" alt="imagem perfil linkedin">
+            </a>
+            <a  href="https://www.instagram.com/sarah_matiias" target="_blank">
+                <img class="rodape-img" src="logo-instagram.svg" alt="imagem perfil do instagram">
+            </a>
+            <a  href="https://github.com/sarahmatias68" target="_blank">
+                <img   class="rodape-img" src="logo-github.svg"  alt="imagem logo do github">
+            </a>
+        </div>
     </footer>
 </body>
 </html>
